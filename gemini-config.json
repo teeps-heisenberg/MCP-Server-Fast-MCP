@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "fastapi-mcp-server": {
+      "command": "python",
+      "args": ["mcp_server.py"],
+      "env": {
+        "PYTHONPATH": "."
+      }
+    }
+  }
+}
+
