@@ -2,7 +2,6 @@
 FastAPI Sample Application
 A simple API with multiple endpoints to demonstrate MCP Server integration
 """
-import utils.session
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from typing import List, Optional
